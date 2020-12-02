@@ -15,11 +15,9 @@ function TabApps() {
         <Tab>SubApp2</Tab>
       </TabList>
 
-      {/* <TabPanel className="tabpanel-height100"> */}
       <TabPanel>
         <SubApp1></SubApp1>
       </TabPanel>
-      {/* <TabPanel className="tabpanel-height100"> */}
       <TabPanel>
         <SubApp2></SubApp2>
       </TabPanel>
@@ -30,7 +28,6 @@ function TabApps() {
 function App() {
   return (
     <div className="App">
-      {/* <SubApp1></SubApp1> */}
       <TabApps></TabApps>
     </div>
   );

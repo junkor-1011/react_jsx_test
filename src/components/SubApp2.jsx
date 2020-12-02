@@ -1,4 +1,3 @@
-// import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 
 import L from 'leaflet';
@@ -6,7 +5,6 @@ import 'leaflet/dist/leaflet.css';
 // import 'leaflet-hash';
 import 'leaflet-draw/dist/leaflet.draw.css';
 import 'leaflet-draw';
-// import { EditControl } from 'react-leaflet-draw';
 import { MapContainer, MapConsumer, TileLayer, ScaleControl, LayersControl, FeatureGroup } from 'react-leaflet';
 
 import './SubApp2.css';
@@ -78,15 +76,6 @@ function DrawLayer() {
     <div>
       <LayersControl.Overlay name={'draw layer'}>
         <FeatureGroup>
-          {/* <EditControl                  */}
-          {/*   position={'topleft'}        */}
-          {/*   onEdited={this._onEditPath} */}
-          {/*   onCreated={this._onCreate}  */}
-          {/*   onDeleted={this._onDeleted} */}
-          {/*   draw={{                     */}
-          {/*     rectangle: true,          */}
-          {/*   }}                          */}
-          {/* />                            */}
         </FeatureGroup>
       </LayersControl.Overlay>
       <LayersControl.Overlay name={'vehicle path'}>
