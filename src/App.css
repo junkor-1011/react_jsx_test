@@ -1,0 +1,20 @@
+html,
+body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.App {
+  height: 100%;
+}
+
+.tab-height90 {
+  height: 90%;
+}
+
+.react-tabs__tab-panel--selected {
+  height: 100%;
+}
